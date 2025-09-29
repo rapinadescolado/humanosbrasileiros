@@ -15,19 +15,23 @@
     height: 100vh;
 }
 
+
 #menu img {
     position: absolute;
     z-index: 5;
 }
-#menu #mapadobrasil {
+#menu #brazilmap {
     top: -20vh;
     height: 150vh;
+    animation: menu-images;
 }
-#menu #cristoredentor {
+#menu #christ {
     top: 10vh;
     height: 120vh;
     z-index: 6;
 }
+@keyframes menu-images {}
+
 
 #menu #display {
     width: 40vw;
