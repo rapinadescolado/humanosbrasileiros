@@ -23,12 +23,13 @@
 #menu #brazilmap {
     top: -20vh;
     height: 150vh;
-    animation: menu-images;
+    animation: menu-images 2s forwards ease-in-out;
 }
 #menu #christ {
     top: 10vh;
     height: 120vh;
     z-index: 6;
+    animation: menu-images 2s forwards ease-in-out;
 }
 @keyframes menu-images {}
 
