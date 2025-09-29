@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* - - - - - MENU - - - - - */
+#menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdd485;
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu img {
+    position: absolute;
+}
+
+#menu #display {
+    width: 40vw;
+    height: 70vh;
+    border: 0.2vw solid white;
+}
