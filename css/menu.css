@@ -31,7 +31,14 @@
     z-index: 6;
     animation: menu-images 2s forwards ease-in-out;
 }
-@keyframes menu-images {}
+@keyframes menu-images {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 60vw;
+    }
+}
 
 
 #menu #display {
