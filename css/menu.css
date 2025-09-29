@@ -17,10 +17,22 @@
 
 #menu img {
     position: absolute;
+    z-index: 5;
+}
+#menu #mapadobrasil {
+    top: -20vh;
+    height: 150vh;
+}
+#menu #cristoredentor {
+    top: 10vh;
+    height: 120vh;
+    z-index: 6;
 }
 
 #menu #display {
     width: 40vw;
     height: 70vh;
-    border: 0.2vw solid white;
+    border: 0.3vw solid white;
+    border-radius: 1vw;
+    z-index: 1;
 }
