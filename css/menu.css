@@ -55,7 +55,7 @@ body {
 
 
 #menu #display {
-    width: 40vw;
+    width: 35vw;
     height: 70vh;
     background-color: white;
     padding: 1vw;
@@ -65,12 +65,12 @@ body {
 }
 @keyframes menu-display {
     0% {
-        margin-left: 0;
+        margin-right: 0;
     }
     20% {
-        margin-left: 0;
+        margin-right: 0;
     }
     100% {
-        margin-left: -50vw;
+        margin-right: 50vw;
     }
 }
