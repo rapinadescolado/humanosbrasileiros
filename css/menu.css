@@ -60,4 +60,16 @@ body {
     border: 0.3vw solid white;
     border-radius: 1vw;
     z-index: 1;
+    animation: menu-display 5s forwards ease-in-out;
+}
+@keyframes menu-display {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -60vw;
+    }
 }
