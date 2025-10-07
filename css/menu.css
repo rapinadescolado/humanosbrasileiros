@@ -33,19 +33,22 @@ body {
 #menu #brazilmap {
     top: -20vh;
     height: 150vh;
-    animation: menu-images 2s forwards ease-in-out;
+    animation: menu-images 5s forwards ease-in-out;
 }
 #menu #christ {
     top: 10vh;
     height: 120vh;
     z-index: 6;
-    animation: menu-images 2s forwards ease-in-out;
+    animation: menu-images 5s forwards ease-in-out;
 }
 @keyframes menu-images {
-    from {
+    0% {
         margin-left: 0;
     }
-    to {
+    20% {
+        margin-left: 0;
+    }
+    100% {
         margin-left: 60vw;
     }
 }
